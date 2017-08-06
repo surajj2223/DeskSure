@@ -18,6 +18,7 @@ access failure and prevents decryption of data.
 # Dependencies:
 1. Bluecove-2.1.0 (jar)
 2. Bluecove-2.1.1-SNAPSHOT (jar)
+3. jCalendar-1.4
 
 # Pending implementation details.
 1. Not yet configured to run at booting.
