@@ -10,7 +10,10 @@ access failure and prevents decryption of data.
 # Technology Description:
 1. Java Swing for User Interaction.
 2. Bluecove 2.0.1 API for managing Bluetooth Stack. (JSR-82 Implementation)
-3. 128-bit AES Standard Algorithm for encryption and decryption of data.
+3. 128-bit AES Standard Algorithm for encryption and decryption of 
+4. Singleton design pattern is used for managing user data throughout the application lifecycle which reduces file IO 
+    operations as the system doesnt have dedicated structured database for saving user data and preference.
+5. User Data Saving Scheme: All user data is saved in the application itself in serialized files.
 
 # Dependencies:
 1. Bluecove-2.1.0 (jar)
